@@ -13,5 +13,6 @@ The property of a BST which differentiates it from a Binary Tree is :
   - Squeued trees are the worst case for this when "H" can be as large as "N", the number of nodes in the input BST.
 
 ### Space Complexity : 
-  - O(1).
+  - O(1) in case of **Iterative** Approach.
+  - O(H) for auxillary space in **Recursive** Approach, where "H" is the height of input BST.
   - Squeued trees are the worst case for this when "H" can be as large as "N", the number of nodes in the input BST.
