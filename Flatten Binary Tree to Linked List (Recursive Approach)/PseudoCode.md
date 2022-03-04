@@ -10,8 +10,8 @@
   
 ### Time Complexity :
   - O(H) where "H" is the height of the tree.
-  - Squeued trees are the worse case for this algorithm where "H" will become equal to "N", the number of node in the input tree.
+  - Squeued trees are the worst case for this algorithm where "H" will become equal to "N", the number of nodes in the input tree.
   
 ### Space Complexity :
   - O(H), due to auxillary space for recursion. 
-  - Squeued trees are the worse case for this algorithm where "H" will become equal to "N", the number of node in the input tree.
+  - Squeued trees are the worst case for this algorithm where "H" will become equal to "N", the number of nodes in the input tree.
