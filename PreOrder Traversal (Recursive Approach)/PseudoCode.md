@@ -9,8 +9,12 @@ Preorder Traversal covers root, followed by left subtree, which in turn is follo
   
 ### Time Complexity : 
   - O(N), as every node in root is visited once.
-  - "N" is the number of nodes in the tree.
 
 ### Space Complexity :
   - O(H), for auxillary recursion space.
-  - "H" is the height of the tree. In worst case, "H" can be as large as "N" (number of nodes in input tree).
+  - In worst case, "H" can be as large as "N".
+
+
+#### Notations :
+  - "N" is the number of nodes in the tree.
+  - "H" is the height of the tree.
