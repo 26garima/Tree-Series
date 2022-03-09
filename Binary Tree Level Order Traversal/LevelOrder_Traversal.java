@@ -24,7 +24,7 @@ class Solution {
         q.offer(root);
         while(!q.isEmpty()) {
             List<Integer> li = new ArrayList<>();
-            int size = q.size();
+            int size = q.size();  // find number of nodes in the current level, so all those nodes can be stored in a seperate list within the result.
             for(int i = 0; i < size; i++) {
                 TreeNode temp = q.poll();
                 li.add(temp.val);
