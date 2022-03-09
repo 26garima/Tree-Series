@@ -10,8 +10,13 @@
 
 ### Time Complexity :
   - O(N), as every node in the tree is visited once.
-  - "N" is the number of nodes in input tree.
   
 ### Space Complexity : 
-  - O(N) for storing result and O(M) for the queue.
-  - "N" is the number of nodes in input tree and "M" is the maximum no of nodes in a particular level.
+  - O(M) for queue.
+  - Worst case for this is "Perfect Binary Tree", where M can be approximately half of N.
+  - Best case for this is Linear (squeued) tree, where M will be 1.
+
+#### Notations :
+   - "N" is number of nodes in input tree.
+   - "M" is the maximum no of nodes in a particular level.
+   - A **Perfect Binary Tree** is a type of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.
