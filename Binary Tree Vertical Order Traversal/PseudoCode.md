@@ -13,8 +13,8 @@
   
  ### **NOTE :** 
   - PostOrder and InOrder traversal won't work here because we want to traverse from top to bottom, left to right. 
-  - In case of PostOrder, of all the nodes belonging to same vertical line, the ones at the bottom will always be traversed first violating the top to bottom constraint.
-  - Inorder also violated the top to bottom due to same reason as above.
+  - In case of PostOrder, of all the nodes belonging to same vertical line, the ones at the bottom will always be traversed first, violating the top to bottom constraint.
+  - Inorder also violates the top to bottom constraint due to same reason as above.
 
 
 ### Time Complexity :
