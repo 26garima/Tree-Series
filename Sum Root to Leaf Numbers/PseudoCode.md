@@ -14,4 +14,4 @@
   
 #### Notations :
   - "N" is the number of nodes in input tree.
-  - "H" is the height of input trer.
+  - "H" is the height of input tree.
