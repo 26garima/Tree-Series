@@ -14,7 +14,7 @@
 ### NOTE :
   - PostOrder and InOrder traversal won't work here because we want to get topmost node belonging to a particular vertical line.
   - In case of PostOrder, of all the nodes belonging to same vertical line, the ones at the bottom will always be traversed first which violates the above mentioned constraint.
-  - Inorder also violates the due to same reason as above.
+  - Inorder also violates the constraint due to same reason as above.
 
 ### Time Complexity :
   - O(N), as every node is traversed once.
